@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+}
+
+.menuContainer li.active::before {
+  width: 5px;
+}
