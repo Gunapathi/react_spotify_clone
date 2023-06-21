@@ -22,7 +22,11 @@ Feel free to customize the content based on your specific project features, add 
 
 # Packages Required
 
+-   React
 -   Tailwind
--   Tailwind autoprefixer - npm install -D autoprefixer
--   Framer motion - npm install framer-motion
--   react icon - npm install react-icons --save
+-   Framer motion
+-   react icon
+
+# Demo
+
+[React - Spotify Firebase Clone](https://react-spotify-firebase-clone.netlify.app/)
