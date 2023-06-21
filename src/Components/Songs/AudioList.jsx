@@ -6,6 +6,7 @@ import { MusicPlayer } from "./MusicPlayer";
 
 const AudioList = () => {
 	const [song, setSong] = useState(Songs[0]);
+	// eslint-disable-next-line
 	const [fav, setFav] = useState(Songs);
 	const [active, setActive] = useState(Songs[0]);
 	const [currIndex, setCurrIndex] = useState(0);
