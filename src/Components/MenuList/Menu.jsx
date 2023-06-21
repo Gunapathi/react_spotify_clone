@@ -18,7 +18,7 @@ function Menu({ title, menuObject }) {
 								active === menu && "active"
 							}`}>
 							<a
-								href="#"
+								href="/"
 								className="flex items-center justify-center sm:justify-start text-[16px] text-primary group-hover/menuItem:text-primaryTextWhite transition-all duration-300 group-[.active]/menuItem:text-primaryTextWhite">
 								<i className="sm:mr-[15px] text-[28px] sm:text-[18px]">
 									{menu.icon}

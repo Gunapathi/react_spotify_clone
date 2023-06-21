@@ -22,7 +22,7 @@ const MenuPlayList = ({ title }) => {
 							className="playList group/menuItem my-[5px] w-full py-[5px] flex items-center justify-between"
 							whileTap={{ scale: 0.95 }}>
 							<a
-								href="#"
+								href="/"
 								className="list flex items-center justify-start text-[16px] text-primary group-hover/menuItem:text-primaryTextWhite group-[.active]/menuItem:text-primaryTextWhite transition-all duration-300">
 								<i className="mr-[15px] text-[18px]">
 									<BsMusicNoteList />
@@ -32,7 +32,7 @@ const MenuPlayList = ({ title }) => {
 								</p>
 							</a>
 							<a
-								href="#"
+								href="/"
 								className="trash text-[18px] text-primary group-hover/menuItem:text-primaryTextWhite group-[.active]/menuItem:text-primaryTextWhite transition-all duration-300">
 								<BsTrash />
 							</a>

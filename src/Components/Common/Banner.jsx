@@ -45,12 +45,12 @@ const Banner = () => {
 					</div>
 					<div className="right flex items-center justify-between">
 						<a
-							href="#"
+							href="/"
 							className="text-[16px] py-[5px] px-[20px] text-primaryTextWhite flex items-center justify-center rounded-full mr-[25px] last:mr-0 font-bold bg-themeGreen">
 							Play
 						</a>
 						<a
-							href="#"
+							href="/"
 							className="text-[16px] py-[5px] px-[20px] text-primaryTextWhite flex items-center justify-center rounded-full mr-[25px] last:mr-0 font-bold bg-[rgba(0,0,0,0.4)]">
 							<i className="mr-2">
 								<FaCheck />

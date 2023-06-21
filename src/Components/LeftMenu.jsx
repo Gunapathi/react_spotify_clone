@@ -6,8 +6,6 @@ import { Menu } from "./MenuList/Menu";
 import { MenuList } from "./MenuList/MenuList";
 import { MenuPlayList } from "./MenuPlayList/MenuPlayList";
 import { TrackList } from "./TrackList/TrackList";
-import { Separator } from "./Common";
-import { motion } from "framer-motion";
 
 function LeftMenu() {
 	return (

@@ -28,6 +28,7 @@ const MusicPlayer = ({ song, updateFav, updateSong }) => {
 		} else {
 			setIsPlaying(false);
 		}
+		// eslint-disable-next-line
 	}, [song]);
 
 	// load song when song is changed and reset on page refresh
@@ -39,6 +40,7 @@ const MusicPlayer = ({ song, updateFav, updateSong }) => {
 			audioPlayer.current.pause();
 			cancelAnimationFrame(animationRef.current);
 		}
+		// eslint-disable-next-line
 	}, [isPlaying, song]);
 
 	// player progress

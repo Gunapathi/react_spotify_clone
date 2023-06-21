@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaUsers } from "react-icons/fa";
 import "../Styles/MainContainer.css";
 import { Banner } from "./Common/Banner";
@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import { AudioList } from "./Songs/AudioList";
 
 const MainContainer = () => {
-	const [active, setActive] = useState(null);
 	return (
 		<div className="mainContainer h-screen sm:w-full min-w-[380px] z-10 grow-1 bg-[rgba(34,34,34,0.6)] backdrop-blur-sm transition-all duration-300 ease-[cubic-bezier(0.175,0.885,0.32,1.725)]">
 			<Banner />
@@ -19,7 +18,7 @@ const MainContainer = () => {
 						className="relative before:absolute before:-bottom-[15px] before:left-0 before:h-0 hover:before:h-[3px] before:w-0 hover:before:w-[calc(70%)] before:bg-primaryTextWhite before:rounded-[5px] mr-5 last:mr-0 before:transition-all before:duration-300 before:ease-[cubic-bezier(0.175,0.885,0.32,1.275)]">
 						<a
 							className="text-primary text-[14px] font-bold"
-							href="#">
+							href="/">
 							Popular
 						</a>
 					</motion.li>
@@ -29,7 +28,7 @@ const MainContainer = () => {
 						className="relative before:absolute before:-bottom-[15px] before:left-0 before:h-0 hover:before:h-[3px] before:w-0 hover:before:w-[calc(70%)] before:bg-primaryTextWhite before:rounded-[5px] mr-5 last:mr-0 before:transition-all before:duration-300 before:ease-[cubic-bezier(0.175,0.885,0.32,1.275)]">
 						<a
 							className="text-primary text-[14px] font-bold"
-							href="#">
+							href="/">
 							Albums
 						</a>
 					</motion.li>
@@ -39,7 +38,7 @@ const MainContainer = () => {
 						className="relative before:absolute before:-bottom-[15px] before:left-0 before:h-0 hover:before:h-[3px] before:w-0 hover:before:w-[calc(70%)] before:bg-primaryTextWhite before:rounded-[5px] mr-5 last:mr-0 before:transition-all before:duration-300 before:ease-[cubic-bezier(0.175,0.885,0.32,1.275)]">
 						<a
 							className="text-primary text-[14px] font-bold"
-							href="#">
+							href="/">
 							Songs
 						</a>
 					</motion.li>
@@ -49,7 +48,7 @@ const MainContainer = () => {
 						className="relative before:absolute before:-bottom-[15px] before:left-0 before:h-0 hover:before:h-[3px] before:w-0 hover:before:w-[calc(70%)] before:bg-primaryTextWhite before:rounded-[5px] mr-5 last:mr-0 before:transition-all before:duration-300 before:ease-[cubic-bezier(0.175,0.885,0.32,1.275)]">
 						<a
 							className="text-primary text-[14px] font-bold"
-							href="#">
+							href="/">
 							Fans
 						</a>
 					</motion.li>
@@ -59,7 +58,7 @@ const MainContainer = () => {
 						className="relative before:absolute before:-bottom-[15px] before:left-0 before:h-0 hover:before:h-[3px] before:w-0 hover:before:w-[calc(70%)] before:bg-primaryTextWhite before:rounded-[5px] mr-5 last:mr-0 before:transition-all before:duration-300 before:ease-[cubic-bezier(0.175,0.885,0.32,1.275)]">
 						<a
 							className="text-primary text-[14px] font-bold"
-							href="#">
+							href="/">
 							About
 						</a>
 					</motion.li>
